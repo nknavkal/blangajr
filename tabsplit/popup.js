@@ -14,7 +14,7 @@ function click(e) {
       {code:"document.body.style.backgroundColor='" + e.target.id + "'"});
   /*this closes the tab window*/
   window.close();
-}a
+}
 
 document.addEventListener('DOMContentLoaded', function () {
   var divs = document.querySelectorAll('div');
