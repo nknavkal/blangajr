@@ -11,7 +11,7 @@ function click(e) {
     the click "e", which maps to a Red, Green Blue, or Yellow portion of the popup window. 
     Ergo, when you click on the "red" area, it reads the ID of that area ("red") and changes
     the background color accordingly */
-      {code:"document.body.style.backgroundColor='" + e.target.id + "'"});
+      {code:"document.body.style.backgroundColor='red'"});
   /*this closes the tab window*/
   window.close();
 }
